@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/withfriend.css">
+    <title>フレンドとの記録</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><img src="img/logo.png" alt=""></h1>
+        <p>フレンドとの記録</p>
+    </header>
+
+    <div class="modalContainer"><!-- モーダルウィンドウ本体の囲み -->
+        <div class="modalBody">
+            <button type="button" class="modalClose">閉じる</button><!-- 閉じるボタン -->
+            <div class="modalContent"><!-- コンテンツエリア -->
+                <h3>磯丸水産</h3>
+                <div class="info">
+                    <p class="place">名古屋</p>
+                    <p class="date">3/23</p>
+                </div>
+                <p class="who">ふじたあいりと</p>
+                <p class="comment">蟹味噌が美味しい。ポテトにつけて食べれば最高。</p>
+                <a href="index_full.html">
+                    <div class="btn">
+                        一緒に行ったよ！
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <div class="inner">
+            <div class="friendSelect">
+                <select name="friend" id="friendSelect">
+                    <option value="">フレンドを選択</option>
+                    <option value="airi">ふじた　あいり</option>
+                    <option value="kanaya">かなや　かいせい</option>
+                    <option value="nakahira">なかひら　しゅんた</option>
+                </select>
+            </div>
+
+            <div class="sort">
+                <!-- <label for="orderSelect">表示順</label> -->
+                <select name="order" id="orderSelect">
+                    <option value="new">新しい順</option>
+                    <option value="old">古い順</option>
+                </select>
+            </div>
+
+            <ul>
+                <li>
+                    <div class="images">
+                        <img src="./img/addPhoto.png" alt="">
+                        <img class="under" src="./img/noPhoto.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>矢場とん</h3>
+                        <div class="info">
+                            <p class="place">名古屋</p>
+                            <p class="date">3/23</p>
+                        </div>
+                        <p class="who">ふじたあいりと</p>
+                        <p class="comment">味噌カツが美味しい！駅から近くて便利！</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="./img/Star.png" alt="お気に入り">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="images">
+                        <img src="./img/friendImg1.png" alt="">
+                        <img class="under" src="./img/friendImg2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>磯丸水産</h3>
+                        <div class="info">
+                            <p class="place">名古屋</p>
+                            <p class="date">3/23</p>
+                        </div>
+                        <p class="who">ふじたあいりと</p>
+                        <p class="comment">蟹味噌が美味しい。ポテトにつけて食べれば最高。</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="./img/Star.png" alt="お気に入り">
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <a href="friendList.html"><img src="./img/toFriend.svg" alt="フレンドアイコン"></a>
+        <a href="index.html"><img src="./img/toHome.svg" alt="ホームアイコン"></a>
+        <a href="log.html"><img src="./img/log-active.png" alt="ログアイコン"></a>
+    </footer>
+
+    <script src="js/modal.js"></script>
+
+</body>
+
+</html>

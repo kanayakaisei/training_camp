@@ -1,0 +1,165 @@
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Zen Maru Gothic", serif;
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF4D9;
+    color: #651608;
+}
+
+header {
+    background: #FFD35B;
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.btnWrap {
+    background: #FFF4D9;
+    padding: 40px 0;
+}
+
+.additionBtn {
+    background: #FF9A42;
+    width: 350px;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 40px;
+    display: block;
+    margin: 0 auto;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.friendWrap {
+    margin-top: 25px;
+    /* padding-bottom: 25px; */
+    border-bottom: #651608 solid 1px;
+}
+
+.friend {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+    img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+.friendComment {
+    color: #651608;
+    margin-left: 30px;
+    line-height: 30px;
+
+    .txtBold {
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .commentTxt {
+        display: flex;
+        margin-top: 10px;
+
+        p {
+            font-size: 12px;
+            background: #FF9A42;
+            width: 80px;
+            height: 25px;
+            color: #fff;
+            text-align: center;
+            line-height: 25px;
+            border-radius: 40px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.friendWrap a {
+    text-decoration: none;
+    color: #651608;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.inviteBtn {
+    font-size: 16px;
+    color: #A65610;
+    background: #fff;
+    border: #FF9A42 solid 4px;
+    border-radius: 6px;
+    width: 350px;
+    height: 46px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    margin: 15px auto;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #FFD35B;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+footer a:last-child img {
+    width: 45px;
+    height: 40px;
+}
